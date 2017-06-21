@@ -11,9 +11,7 @@ If you're running on Windows, XAMPP should do the trick.
 
 ## Limitations
 
-The way that the image is loaded into the canvas, it distorts to fit a predifined square.
-This causes some of the calculations to be a little off, but still gives a general idea 
-for whether the top and bottom or left and right pixels match.
+The way the image is loaded into the canvas will distort it to fit a predifined square canvas.  This causes some of the calculations to be a little off, but still gives a general idea for whether the top and bottom or left and right pixels match.  The better way would be to read the file and adjust the canvas to accomodate the full image dimensions.  The reason for the square was to have a predictable amount of pixels to read.  Lazy.  So lazy.
 
 ## Future improvements
 
